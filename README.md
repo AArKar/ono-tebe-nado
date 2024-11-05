@@ -1,1 +1,1 @@
-https://github.com/AArKar/ono-tebe-nado
+https://github.com/AArKar/ono-tebe-nado.git
