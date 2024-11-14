@@ -15,7 +15,6 @@
     display: flex;
     width: 391.48px;
     justify-self: start;
-    
 }
 .header__links-list {
     display: flex;
@@ -61,13 +60,10 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 125% 100%;
-    /*gap: 50px;*/
-    
 }
 
 .cover__title {
     width: 1000px;
-    /*height:  355px;*/
     margin: auto;
     padding-top: 165px;
     padding-bottom: 134px;
@@ -92,12 +88,12 @@
 }
 
 .aligned-text_center {
-    text-align: center;   
+    text-align: center;
     line-height: 1.35;
 }
 
 .aligned-text_right {
-    text-align: end; 
+    text-align: end;
     line-height: 1.05;
 }
 
