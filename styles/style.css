@@ -52,12 +52,11 @@
 
 .cover {
     min-height: 757px;
-    width: 100%;
     position: relative;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 125% 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 .cover__title {
@@ -132,8 +131,9 @@
 
 .overlay {
     width: 100%;
-    min-height: 100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
 }
 
 /*стили для блока Лоты*/
@@ -158,11 +158,13 @@
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    flex-grow: 1
 }
 
 .lots__card-list-ite {
     width:  334px;
     min-height:  563px;
+    position: relative;
 }
 
 .card {
@@ -175,7 +177,7 @@
     justify-content: space-between;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-size: 160% 100%;
+    background-size: cover;
 }
 
 .card_type_film {
@@ -193,6 +195,7 @@
 .card__title {
     color: #FFFFFF;
     text-transform: uppercase;
+    text-decoration: underline;
     font-size: 22px;
     width:  254px;
     word-spacing: 3.2px;
